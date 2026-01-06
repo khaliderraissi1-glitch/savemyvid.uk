@@ -1,7 +1,7 @@
-
 {
   "name": "savemyvid-uk-fullstack",
   "version": "1.0.0",
+  "type": "module", 
   "description": "Full-stack video downloader with Gemini AI intelligence.",
   "main": "server.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "@google/genai": "^1.34.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0"
   }
 }
