@@ -1,0 +1,8 @@
+{
+  "name": "TubeStream Pro - Advanced Media Suite",
+  "description": "A high-performance media management and video analysis suite featuring Gemini-powered video intelligence, format conversion simulation, and advanced download management UI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
