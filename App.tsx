@@ -1,5 +1,6 @@
 
 import React, { useState, useCallback } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './components/Header';
 import UrlInput from './components/UrlInput';
 import VideoPreview from './components/VideoPreview';
@@ -276,6 +277,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
